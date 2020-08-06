@@ -18,5 +18,8 @@ public class ValidadorController {
 		}
 		 return "{\"status\": \"invalido\"}";
 	}
-
+	@GetMapping("/")
+	public String index() {
+		 return "{\"Mensagem\": \"Bem-vindo a API Turma 6a - Itau !\"}";
+	}
 }
